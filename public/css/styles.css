@@ -1,0 +1,89 @@
+
+.imagess{
+    width:500px;
+    height:100vh;
+}
+
+#image1{
+    background-image: url('../imgs/anakin.png');   
+    background-color:  rgba(0, 0, 0, 0.3);
+    background-position: 0 0;
+    background-size: cover;
+}
+#image2{
+    background-image: url('../imgs/darth_vader.png');   
+    background-color:  rgba(0, 0, 0, 0.3);
+    background-position: 0 0;
+    background-size: cover;
+}
+#image3{
+    background-image: url('../imgs/obi_wan_kenobi.png');   
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: 0 0;
+    background-size: cover;
+}
+
+li{
+    font-size: 20px;
+    color: yellow;
+}
+
+h5{
+    text-align: center;
+    font-size: 40px;
+    color: green; 
+}
+
+ul{
+  padding-top: 320px;
+  padding-left: 700px;
+  text-align: justify;
+  list-style: none;
+}
+
+body{
+    background: url('/imgs/space-background.jpg');
+    
+}
+
+.col-md-4{
+    height: 100vh;
+    width: 33%;
+}
+
+.characters{
+    background-image: url('../imgs/character.png'); 
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.vehicles{
+    background-image: url('../imgs/falcon.png');  
+    background-position: 0 0; 
+    background-size: cover;
+    cursor: pointer;
+}
+.planets{
+    background-image: url('../imgs/death-start.png'); 
+    background-position: 0 0;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.title{
+  z-index: 2;
+  position: absolute;
+  width: 30%;
+  padding-left: 400px 
+}
+
+.nav-link{
+    border-color: whitesmoke;
+    background-color: rgba(211, 197, 197, 0.61);
+    color: white;
+}
+
+nav{
+  z-index: 2;
+  position: absolute;
+}
